@@ -9,8 +9,8 @@
       "sha256": "da5aa729f190f19beeb515d7d3cf16b7f9a4691ff17a51a82e6b8bf5f8a60858"
     },
     "CITATION.md": {
-      "bytes": 994,
-      "sha256": "285128c43509bbf350a2e7a2e72355b8e3ce9bc97bd768f1d3436ce68a807d61"
+      "bytes": 988,
+      "sha256": "bcd812ce818ca0a38f6d3cd15f40871ac918c2a994f83067ec534b7b914f96a5"
     },
     "LICENSE": {
       "bytes": 11365,
@@ -21,8 +21,8 @@
       "sha256": "57fe1ec1a8b1825512ae2ad3dcdda35487c8dd986a484047effdf555973b4256"
     },
     "README.md": {
-      "bytes": 8841,
-      "sha256": "9fb01f8b55c441a47777481f69691d199136d63af889315adb691b5300f27c4d"
+      "bytes": 8829,
+      "sha256": "95a3f181c23ef52b5a56076b9f51af47be5247feea4c85773a7cb33b5af69134"
     },
     "current_report_manifest.json": {
       "bytes": 1742,
@@ -97,8 +97,8 @@
       "sha256": "298b42a6aa72267e1433eebd299ab1fba29c69048f0a7b4ee07305d748a6913f"
     },
     "docs/RELEASE_STATUS.md": {
-      "bytes": 5777,
-      "sha256": "ab4ab7466366a46a59b092e55b49cc8331425cb518db0a85d744ef9c4283f1da"
+      "bytes": 5771,
+      "sha256": "9382597d817e034c39c12db845fe15b47927498ba2030603eb5d7e3c7a7c545f"
     },
     "docs/VALIDATION.json": {
       "bytes": 1365,

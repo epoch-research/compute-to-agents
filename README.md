@@ -2,7 +2,7 @@
 
 Reproduces the **September 29 report figure set: Figures 1–9, A1 and A2**, including the split versions of Figures 2/A1. Also retains the older Draft 1 tables and timing/cache audits supporting the agent-hour estimates. No Google Docs access, model API keys, inference servers, or GPU are required.
 
-**Status:** private review repository at [epoch-research/compute-to-tokens-repro](https://github.com/epoch-research/compute-to-tokens-repro), not publicly released. The main hourly-cost rates reproduce. Ten numerical endpoints in Appendix B4 differ slightly from full-precision arithmetic; see [known discrepancies](docs/DISCREPANCIES.md). Public release also needs the benchmark-export redistribution review and final report citation metadata described in [release status](docs/RELEASE_STATUS.md).
+**Status:** private review repository at [epoch-research/compute-to-agents](https://github.com/epoch-research/compute-to-agents), not publicly released. The main hourly-cost rates reproduce. Ten numerical endpoints in Appendix B4 differ slightly from full-precision arithmetic; see [known discrepancies](docs/DISCREPANCIES.md). Public release also needs the benchmark-export redistribution review and final report citation metadata described in [release status](docs/RELEASE_STATUS.md).
 
 ## Quick start
 

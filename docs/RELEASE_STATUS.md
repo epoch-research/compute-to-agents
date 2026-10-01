@@ -2,7 +2,7 @@
 
 ## October 1 private review repository
 
-Private repository: <https://github.com/epoch-research/compute-to-tokens-repro>. Visibility was explicitly verified as private before pushing. All 48 tests, the privacy/checksum checks, and a fresh extracted-archive offline reproduction passed again, including all 11 current figures and four split parts. The September 29 short-copy revisions are included. Raw trace datasets, personal traces, credentials, environments and generated build directories are excluded from the upload. The public-release gates remain unresolved; private review is not public publication approval.
+Private repository: <https://github.com/epoch-research/compute-to-agents>. Visibility was explicitly verified as private before pushing. All 48 tests, the privacy/checksum checks, and a fresh extracted-archive offline reproduction passed again, including all 11 current figures and four split parts. The September 29 short-copy revisions are included. Raw trace datasets, personal traces, credentials, environments and generated build directories are excluded from the upload. The public-release gates remain unresolved; private review is not public publication approval.
 
 ## September 29 current-figure audit
 

@@ -1,6 +1,6 @@
 # Citation
 
-When citing this reproduction, cite the accompanying *compute to tokens* report and the repository release/commit used. The private review repository is <https://github.com/epoch-research/compute-to-tokens-repro>. Final author and report URL should be filled in by the report author before public publication; they are not invented here.
+When citing this reproduction, cite the accompanying *compute to tokens* report and the repository release/commit used. The private review repository is <https://github.com/epoch-research/compute-to-agents>. Final author and report URL should be filled in by the report author before public publication; they are not invented here.
 
 Also credit the underlying sources:
 
