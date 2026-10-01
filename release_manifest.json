@@ -21,8 +21,8 @@
       "sha256": "57fe1ec1a8b1825512ae2ad3dcdda35487c8dd986a484047effdf555973b4256"
     },
     "README.md": {
-      "bytes": 9215,
-      "sha256": "6940db71ffe177098a7456e6bc37af40192a438a5b57263f80b7b00083d80453"
+      "bytes": 8776,
+      "sha256": "a63bc7e5435d31e1bdf1c08ba1e21a5bb234b88bbd47c3afc46e040c5e32d430"
     },
     "current_report_manifest.json": {
       "bytes": 1742,
@@ -121,8 +121,8 @@
       "sha256": "c5358865e47321e50b89e7c04168cb3e7601307c48541149462bc217853e9fcf"
     },
     "polished_figures/README.md": {
-      "bytes": 5257,
-      "sha256": "a569433e2a1fe0735851039e8444128571d886f73ec3d223b99a2e8e6bf7920d"
+      "bytes": 5557,
+      "sha256": "fa240056ffe5ce4b0d9b8a68d4036a11e6e2c3ab7884d8f0064911934227941c"
     },
     "pyproject.toml": {
       "bytes": 463,

@@ -65,15 +65,15 @@ Artifact downloads require a separately authenticated GitHub CLI (`gh auth login
 - [Current reproduction guide](docs/CURRENT_REPRODUCTION.md): data acquisition, input provenance, interpretation of measurements and validation boundaries.
 - `src/compute_tokens/current_report.py`: current build orchestration; explicit aggregate and benchmark inputs, no workspace-only files.
 
-The standalone design-preview commands below are historical development tools. They are not prerequisites for the main reproduction command and their galleries/numbering may predate the final handoff.
+The standalone design-preview commands below are historical development tools. They are not prerequisites for the main reproduction command and their galleries/numbering may predate the final handoff. Links below open tracked plotting code, not generated galleries. HTML galleries and exported artwork are excluded from Git: generate them locally and open them in your browser, rather than following a GitHub URL. For the current figure set, use the quick-start command and open `build/current/index.html`.
 
-- [Draft 2 figure text review](polished_figures/draft2_text_review/index.html): Figures 1–8 and A1–A2 in the current order, with September 18 wording and source credits; rebuild with `.venv/bin/python -m compute_tokens.figure_text_review`. Includes one combined PDF, individual PNG/SVG/PDF files, and dataset-count notes. Plotted data, colors, scales, and geometry are checked against the previous artwork.
-- [Polished figures](polished_figures/index.html): alternative artwork and captions for all nine report figures, with terminology aligned to Draft 2; rebuild with `.venv/bin/python -m compute_tokens.polish`. Frozen Draft 1 calculations and original reference figures remain unchanged.
-- [Headline candidate](polished_figures/headline_candidate/index.html): common reference serving-cost curve with open-model benchmark and Claude/GPT economic-assumption ranges; rebuild with `.venv/bin/python -m compute_tokens.headline`. This is an additional candidate, not a replacement in the report.
-- [Headline alternatives](polished_figures/headline_alternatives/index.html): a direct-capacity overview, separate full-sensitivity charts, and a numerical matrix; rebuild with `.venv/bin/python -m compute_tokens.headline_alternatives`.
-- [Simplified headline options](polished_figures/headline_simple/index.html): lower-density model comparisons and a central-scenario-only headline; rebuild with `.venv/bin/python -m compute_tokens.headline_simple`.
-- [Continuous headline curves](polished_figures/headline_curves/index.html): Figure 6-style hourly-cost curves with Sol and Fable workload anchors; rebuild with `.venv/bin/python -m compute_tokens.headline_curves`.
-- [Common serving-cost curve](polished_figures/serving_cost_curve/index.html): one through-2027 curve with selected open-model benchmark points and Sol/Fable inferred-cost segments; rebuild with `.venv/bin/python -m compute_tokens.serving_curve`.
+- [Draft 2 figure text review](src/compute_tokens/figure_text_review.py): historical wording and source-credit review; rebuild with `.venv/bin/python -m compute_tokens.figure_text_review`.
+- [Polished figures](src/compute_tokens/polish.py): alternative artwork and captions; rebuild with `.venv/bin/python -m compute_tokens.polish`.
+- [Headline candidate](src/compute_tokens/headline.py): reference serving-cost curve; rebuild with `.venv/bin/python -m compute_tokens.headline`.
+- [Headline alternatives](src/compute_tokens/headline_alternatives.py): capacity overview, sensitivity charts, and numerical matrix; rebuild with `.venv/bin/python -m compute_tokens.headline_alternatives`.
+- [Simplified headline options](src/compute_tokens/headline_simple.py): lower-density model comparisons; rebuild with `.venv/bin/python -m compute_tokens.headline_simple`.
+- [Continuous headline curves](src/compute_tokens/headline_curves.py): hourly-cost curves; rebuild with `.venv/bin/python -m compute_tokens.headline_curves`.
+- [Common serving-cost curve](src/compute_tokens/serving_curve.py): through-2027 curve; rebuild with `.venv/bin/python -m compute_tokens.serving_curve`.
 - [Historical report manifest](report_manifest.json): Draft 1 figures/tables, generators, inputs and outputs.
 - [Methodology](docs/METHODOLOGY.md): units, denominators, cache scenarios, filters, prices and limitations.
 - [Provenance](docs/PROVENANCE.md): source versions, collection windows and upstream attribution.
