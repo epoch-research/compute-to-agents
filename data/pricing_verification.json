@@ -1,5 +1,26 @@
 {
   "verified_on": "2026-09-14",
+  "rechecked_on": "2026-10-01",
+  "recheck": {
+    "standard_trace_rates": "All 16 models' standard input, cached-input, output and quoted cache-write rates in data/prices.json match official listings as of 2026-10-01. This includes the four headline cohorts: GPT-5.5, GPT-5.6 Sol, Claude Opus 4.8 and Claude Fable 5. Legacy Claude prices still listed do not imply continued model availability.",
+    "additional_sources": [
+      "https://developers.openai.com/api/docs/models/gpt-5.6-terra",
+      "https://developers.openai.com/api/docs/models/gpt-5.6-luna",
+      "https://platform.claude.com/docs/en/about-claude/pricing",
+      "https://developers.openai.com/api/docs/guides/fast-mode",
+      "https://docs.z.ai/guides/overview/pricing",
+      "https://platform.minimax.io/docs/guides/pricing-paygo"
+    ],
+    "gpt_5_6_sol_promotion": "The matching standard rates are promotional, offered at least through 2026-11-21 according to the model page.",
+    "fast_rates_not_reverified": "Do not label fast_* fields current. In particular, saved GPT-5.6 Sol fast input/output prices of 10/60 USD per million differ from today's official short-context 8/40. Fast rates are not used for the report's standard-price calculations. Preserve historical fields; do not reprice outputs.",
+    "open_model_rates": {
+      "glm5.2": "Matches official input/cached-input/output rates as of 2026-10-01.",
+      "minimaxm3": "Matches official standard <=512k input/cached-input/output rates as of 2026-10-01.",
+      "dsv4_offpeak_and_peak": "Retain 2026-09-15 verification date: official pricing page timed out during this check; search snippets alone were not treated as verification.",
+      "kimik3": "Retain 2026-09-15 verification date: fetched official page did not expose numerical prices. It describes separate cache-write billing; the frozen three-rate benchmark approximation is not revalidated here."
+    },
+    "scope": "Verification metadata only. All numerical inputs, historical collection dates, pricing scenarios and plotted outputs remain unchanged. Rental rates were not rechecked."
+  },
   "tier": "Standard API; not Fast, Batch, Flex, subscription or negotiated pricing",
   "sources": [
     "https://developers.openai.com/api/docs/pricing",

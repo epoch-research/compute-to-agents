@@ -57,8 +57,8 @@
       "sha256": "0a79b5265f8a2f9c2377278b554321ff032c69319fbbb2e3ff0198d89c03c8ef"
     },
     "data/pricing_verification.json": {
-      "bytes": 1853,
-      "sha256": "769b643dd216d7ae8e3f7f45b37763bc817e7e4e91bc1304c557e0b7d6b6cdf2"
+      "bytes": 3948,
+      "sha256": "88f9562a53584a5c539030fac89031b181a1e12b327bb598dc5a3300af459d6b"
     },
     "data/sources.json": {
       "bytes": 769,
@@ -89,12 +89,12 @@
       "sha256": "a77c89471308aefa4ff4debc3f3ffd54a2c6dcd0ce5fcdca4b72c5268a66163e"
     },
     "docs/METHODOLOGY.md": {
-      "bytes": 9574,
-      "sha256": "0c5a2f3046db1b225ec0a8425e4d4be351c910b4cb10333c3c7b3154f8fac50d"
+      "bytes": 10419,
+      "sha256": "0360901783fa8a3d61ab1fcaecffbf093a8c894184a6dc9fd971a6a0d5ce2a28"
     },
     "docs/PROVENANCE.md": {
-      "bytes": 3716,
-      "sha256": "298b42a6aa72267e1433eebd299ab1fba29c69048f0a7b4ee07305d748a6913f"
+      "bytes": 3950,
+      "sha256": "75e767a52b9e92837d3852ed502c9c5aee9b9757856b526fd1185861a9b867a2"
     },
     "docs/RELEASE_STATUS.md": {
       "bytes": 5771,
