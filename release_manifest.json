@@ -21,8 +21,8 @@
       "sha256": "57fe1ec1a8b1825512ae2ad3dcdda35487c8dd986a484047effdf555973b4256"
     },
     "README.md": {
-      "bytes": 8829,
-      "sha256": "95a3f181c23ef52b5a56076b9f51af47be5247feea4c85773a7cb33b5af69134"
+      "bytes": 9215,
+      "sha256": "6940db71ffe177098a7456e6bc37af40192a438a5b57263f80b7b00083d80453"
     },
     "current_report_manifest.json": {
       "bytes": 1742,
@@ -105,8 +105,8 @@
       "sha256": "d65d2d21a7fd124da1330dae321c5c395d18e12e2d2067590b3067f9b3b50d74"
     },
     "licenses/DATA_TERMS.md": {
-      "bytes": 2097,
-      "sha256": "f5ba317461dfecdcbb924ef90b5b238f62dd96e9f9f1ca20d09965ce2ecdd54e"
+      "bytes": 2373,
+      "sha256": "5b443c5ea71c2f0a69fa9380e292a5661d66e3b17d958f13574c2cec840df33d"
     },
     "licenses/TraceLab-DATASET.md": {
       "bytes": 2061,
