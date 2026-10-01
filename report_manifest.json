@@ -1,0 +1,329 @@
+{
+  "baseline": "Draft 1, saved 2026-09-16; no private document included",
+  "items": [
+    {
+      "id": "Figure 1",
+      "title": "P90 speed and configured clients/GPU",
+      "generator": "compute_tokens.benchmark_figures",
+      "inputs": [
+        "data/inferencex_2026-09-15.csv.gz",
+        "data/assumptions.json",
+        "data/figure_config.json"
+      ],
+      "methodology": "docs/METHODOLOGY.md",
+      "outputs": [
+        "figures/figure_1_p90_frontiers.png",
+        "figures/figure_1_p90_frontiers.svg",
+        "figures/figure_1_p90_frontiers.pdf",
+        "inferencex_prepared.csv"
+      ]
+    },
+    {
+      "id": "Figure 2",
+      "title": "Clients/GPU at 50 and 100 TPS/user",
+      "generator": "compute_tokens.benchmark_figures",
+      "inputs": [
+        "data/inferencex_2026-09-15.csv.gz",
+        "data/assumptions.json",
+        "data/figure_config.json"
+      ],
+      "methodology": "docs/METHODOLOGY.md",
+      "outputs": [
+        "figures/figure_2_capacity_matrix.png",
+        "figures/figure_2_capacity_matrix.svg",
+        "figures/figure_2_capacity_matrix.pdf",
+        "figures/all_cutoff_estimates.csv"
+      ]
+    },
+    {
+      "id": "Figure 3",
+      "title": "TraceLab API-equivalent hourly cost",
+      "generator": "compute_tokens.distributions",
+      "inputs": [
+        "data/cost_groups.json",
+        "data/prices.json"
+      ],
+      "methodology": "docs/METHODOLOGY.md",
+      "outputs": [
+        "figures/figure_3_session_costs_retained.png",
+        "figures/figure_3_session_costs_retained.svg",
+        "figures/figure_3_session_costs_retained.pdf",
+        "figures/figure_3_numerical_measurements.csv",
+        "figures/numerical_measurements.json"
+      ]
+    },
+    {
+      "id": "Figure 4",
+      "title": "WEKA and TraceLab hourly token distributions",
+      "generator": "compute_tokens.distributions",
+      "inputs": [
+        "data/token_groups.json"
+      ],
+      "methodology": "docs/METHODOLOGY.md",
+      "outputs": [
+        "figures/figure_4_token_distributions_retained.png",
+        "figures/figure_4_token_distributions_retained.svg",
+        "figures/figure_4_token_distributions_retained.pdf",
+        "figures/empirical_cdf_points.csv",
+        "figures/numerical_measurements.json"
+      ]
+    },
+    {
+      "id": "Figure 5",
+      "title": "Closed-model capacity envelope",
+      "generator": "compute_tokens.benchmark_figures",
+      "inputs": [
+        "data/inferencex_2026-09-15.csv.gz",
+        "data/assumptions.json",
+        "data/figure_config.json"
+      ],
+      "methodology": "docs/METHODOLOGY.md",
+      "outputs": [
+        "figures/figure_5_capacity_envelope.png",
+        "figures/figure_5_capacity_envelope.svg",
+        "figures/figure_5_capacity_envelope.pdf",
+        "figures/capacity_scenarios.csv"
+      ]
+    },
+    {
+      "id": "Figure 6",
+      "title": "Hourly-cost sensitivity",
+      "generator": "compute_tokens.benchmark_figures",
+      "inputs": [
+        "data/inferencex_2026-09-15.csv.gz",
+        "data/assumptions.json",
+        "data/figure_config.json"
+      ],
+      "methodology": "docs/METHODOLOGY.md",
+      "outputs": [
+        "figures/figure_6_cost_sensitivity.png",
+        "figures/figure_6_cost_sensitivity.svg",
+        "figures/figure_6_cost_sensitivity.pdf",
+        "figures/capacity_scenarios.csv",
+        "figures/cost_sensitivity_curve.csv"
+      ]
+    },
+    {
+      "id": "Figure 7",
+      "title": "DeepSeek benchmark-workload capacity",
+      "generator": "compute_tokens.benchmark_figures",
+      "inputs": [
+        "data/inferencex_2026-09-15.csv.gz",
+        "data/assumptions.json",
+        "data/figure_config.json"
+      ],
+      "methodology": "docs/METHODOLOGY.md",
+      "outputs": [
+        "figures/figure_7_deepseek_sensitivity.png",
+        "figures/figure_7_deepseek_sensitivity.svg",
+        "figures/figure_7_deepseek_sensitivity.pdf",
+        "figures/deepseek_capacity_scenarios.csv"
+      ]
+    },
+    {
+      "id": "Figure A1",
+      "title": "Median-speed frontiers",
+      "generator": "compute_tokens.benchmark_figures",
+      "inputs": [
+        "data/inferencex_2026-09-15.csv.gz",
+        "data/assumptions.json",
+        "data/figure_config.json"
+      ],
+      "methodology": "docs/METHODOLOGY.md",
+      "outputs": [
+        "figures/figure_a1_median_frontiers.png",
+        "figures/figure_a1_median_frontiers.svg",
+        "figures/figure_a1_median_frontiers.pdf",
+        "inferencex_prepared.csv"
+      ]
+    },
+    {
+      "id": "Figure A2",
+      "title": "Clients/GPU at 200 TPS/user",
+      "generator": "compute_tokens.benchmark_figures",
+      "inputs": [
+        "data/inferencex_2026-09-15.csv.gz",
+        "data/assumptions.json",
+        "data/figure_config.json"
+      ],
+      "methodology": "docs/METHODOLOGY.md",
+      "outputs": [
+        "figures/figure_a2_200tps.png",
+        "figures/figure_a2_200tps.svg",
+        "figures/figure_a2_200tps.pdf",
+        "figures/all_cutoff_estimates.csv"
+      ]
+    },
+    {
+      "id": "Table 1",
+      "title": "Closed-model serving assumptions",
+      "generator": "compute_tokens.tables",
+      "inputs": [
+        "data/assumptions.json"
+      ],
+      "methodology": "docs/METHODOLOGY.md",
+      "outputs": [
+        "tables/table_1.csv",
+        "tables/table_1.html"
+      ]
+    },
+    {
+      "id": "Table 2",
+      "title": "Open-model revenue/rental multiples",
+      "generator": "compute_tokens.tables",
+      "inputs": [
+        "data/assumptions.json"
+      ],
+      "methodology": "docs/METHODOLOGY.md",
+      "outputs": [
+        "tables/table_2.csv",
+        "tables/table_2.html"
+      ]
+    },
+    {
+      "id": "Table 3",
+      "title": "GPU memory specifications",
+      "generator": "compute_tokens.tables",
+      "inputs": [
+        "data/assumptions.json",
+        "data/hardware_specs.json"
+      ],
+      "methodology": "docs/METHODOLOGY.md",
+      "outputs": [
+        "tables/table_3.csv",
+        "tables/table_3.html"
+      ]
+    },
+    {
+      "id": "Table 4",
+      "title": "Annual HBM assumptions",
+      "generator": "compute_tokens.tables",
+      "inputs": [
+        "data/assumptions.json"
+      ],
+      "methodology": "docs/METHODOLOGY.md",
+      "outputs": [
+        "tables/table_4.csv",
+        "tables/table_4.html"
+      ]
+    },
+    {
+      "id": "Table A1",
+      "title": "Kimi TTFT selections",
+      "generator": "compute_tokens.tables",
+      "inputs": [
+        "data/assumptions.json"
+      ],
+      "methodology": "docs/METHODOLOGY.md",
+      "outputs": [
+        "tables/table_A1.csv",
+        "tables/table_A1.html"
+      ]
+    },
+    {
+      "id": "Table A2",
+      "title": "TraceLab sample summary",
+      "generator": "compute_tokens.tables",
+      "inputs": [
+        "data/assumptions.json"
+      ],
+      "methodology": "docs/METHODOLOGY.md",
+      "outputs": [
+        "tables/table_A2.csv",
+        "tables/table_A2.html"
+      ]
+    },
+    {
+      "id": "Table B1",
+      "title": "Revenue/cost sensitivities",
+      "generator": "compute_tokens.tables",
+      "inputs": [
+        "data/assumptions.json"
+      ],
+      "methodology": "docs/METHODOLOGY.md",
+      "outputs": [
+        "tables/table_B1.csv",
+        "tables/table_B1.html"
+      ]
+    },
+    {
+      "id": "Table B2a",
+      "title": "Annual supply arithmetic",
+      "generator": "compute_tokens.tables",
+      "inputs": [
+        "data/assumptions.json"
+      ],
+      "methodology": "docs/METHODOLOGY.md",
+      "outputs": [
+        "tables/table_B2a.csv",
+        "tables/table_B2a.html"
+      ]
+    },
+    {
+      "id": "Table B2b",
+      "title": "Cumulative supply",
+      "generator": "compute_tokens.tables",
+      "inputs": [
+        "data/assumptions.json"
+      ],
+      "methodology": "docs/METHODOLOGY.md",
+      "outputs": [
+        "tables/table_B2b.csv",
+        "tables/table_B2b.html"
+      ]
+    },
+    {
+      "id": "Table B3",
+      "title": "HBM4 uplift sensitivity",
+      "generator": "compute_tokens.tables",
+      "inputs": [
+        "data/assumptions.json"
+      ],
+      "methodology": "docs/METHODOLOGY.md",
+      "outputs": [
+        "tables/table_B3.csv",
+        "tables/table_B3.html"
+      ]
+    },
+    {
+      "id": "Table B4",
+      "title": "Closed and open capacity grid",
+      "generator": "compute_tokens.tables",
+      "inputs": [
+        "data/assumptions.json"
+      ],
+      "methodology": "docs/METHODOLOGY.md",
+      "outputs": [
+        "tables/table_B4.csv",
+        "tables/table_B4.html"
+      ]
+    },
+    {
+      "id": "Table B5",
+      "title": "Accelerator mix",
+      "generator": "compute_tokens.tables",
+      "inputs": [
+        "data/assumptions.json"
+      ],
+      "methodology": "docs/METHODOLOGY.md",
+      "outputs": [
+        "tables/table_B5.csv",
+        "tables/table_B5.html"
+      ]
+    },
+    {
+      "id": "Table C1",
+      "title": "HBM stack specifications",
+      "generator": "compute_tokens.tables",
+      "inputs": [
+        "data/assumptions.json",
+        "data/hardware_specs.json"
+      ],
+      "methodology": "docs/METHODOLOGY.md",
+      "outputs": [
+        "tables/table_C1.csv",
+        "tables/table_C1.html"
+      ]
+    }
+  ]
+}

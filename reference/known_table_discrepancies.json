@@ -1,0 +1,82 @@
+[
+  {
+    "table": "B4",
+    "row": 15,
+    "column": 3,
+    "reported": 372.1,
+    "recomputed": 372.0016978145426,
+    "tolerance": 0.050000001
+  },
+  {
+    "table": "B4",
+    "row": 15,
+    "column": 3,
+    "reported": 968.9,
+    "recomputed": 968.689523335376,
+    "tolerance": 0.050000001
+  },
+  {
+    "table": "B4",
+    "row": 16,
+    "column": 3,
+    "reported": 804,
+    "recomputed": 803.8498287883344,
+    "tolerance": 0.050000001
+  },
+  {
+    "table": "B4",
+    "row": 17,
+    "column": 2,
+    "reported": 76,
+    "recomputed": 76.05417743152105,
+    "tolerance": 0.050000001
+  },
+  {
+    "table": "B4",
+    "row": 17,
+    "column": 3,
+    "reported": 156.1,
+    "recomputed": 156.21528044434424,
+    "tolerance": 0.050000001
+  },
+  {
+    "table": "B4",
+    "row": 17,
+    "column": 3,
+    "reported": 406.6,
+    "recomputed": 406.78337341023354,
+    "tolerance": 0.050000001
+  },
+  {
+    "table": "B4",
+    "row": 18,
+    "column": 2,
+    "reported": 33.9,
+    "recomputed": 33.812543176054206,
+    "tolerance": 0.050000001
+  },
+  {
+    "table": "B4",
+    "row": 18,
+    "column": 2,
+    "reported": 59.8,
+    "recomputed": 59.67913870573569,
+    "tolerance": 0.050000001
+  },
+  {
+    "table": "B4",
+    "row": 18,
+    "column": 3,
+    "reported": 69.6,
+    "recomputed": 69.45096368361534,
+    "tolerance": 0.050000001
+  },
+  {
+    "table": "B4",
+    "row": 18,
+    "column": 3,
+    "reported": 181.3,
+    "recomputed": 180.84976843144355,
+    "tolerance": 0.050000001
+  }
+]

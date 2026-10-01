@@ -1,0 +1,76 @@
+{
+  "3": [
+    [
+      "Accelerator",
+      "HBM generation",
+      "Memory per GPU",
+      "Peak bandwidth per GPU"
+    ],
+    [
+      "[A100 80GB SXM](https://www.nvidia.com/content/dam/en-zz/Solutions/Data-Center/a100/pdf/nvidia-a100-datasheet-nvidia-us-2188504-web.pdf)",
+      "HBM2E",
+      "80 GB",
+      "2.039 TB/s"
+    ],
+    [
+      "[H100 SXM](https://www.nvidia.com/en-us/data-center/h100/)",
+      "HBM3",
+      "80 GB",
+      "3.35 TB/s"
+    ],
+    [
+      "[Blackwell Ultra (GB300)](https://developer.nvidia.com/blog/inside-nvidia-blackwell-ultra-the-chip-powering-the-ai-factory-era/)",
+      "HBM3E",
+      "288 GB",
+      "8 TB/s"
+    ],
+    [
+      "[Rubin (VR200)](https://developer.nvidia.com/blog/inside-nvidia-rubin-gpu-architecture-powering-the-era-of-agentic-ai/)",
+      "HBM4",
+      "288 GB",
+      "22 TB/s"
+    ]
+  ],
+  "C1": [
+    [
+      "Generation",
+      "Manufacturer",
+      "Capacity per stack",
+      "DRAM dies per stack",
+      "Data rate per pin",
+      "Bandwidth per stack"
+    ],
+    [
+      "HBM2E",
+      "[SK hynix](https://product.skhynix.com/products/dram/hbm/hbm2e.go?appTypCd=APX08)",
+      "16 GB",
+      "8",
+      "3.6 Gb/s",
+      "460 GB/s"
+    ],
+    [
+      "HBM3",
+      "[SK hynix](https://news.skhynix.com/en/sk-hynix-develops-industrys-first-12-layer-hbm3/)",
+      "16 / 24 GB",
+      "8 / 12",
+      "[6.4 Gb/s](https://product.skhynix.com/products/dram/hbm/hbm3.go?appTypCd=APX01)",
+      "819 GB/s"
+    ],
+    [
+      "HBM3E",
+      "[Micron](https://www.micron.com/products/memory/hbm/hbm3e)",
+      "24 / 36 GB",
+      "8 / 12",
+      ">9.2 Gb/s",
+      ">1,200 GB/s"
+    ],
+    [
+      "HBM4",
+      "[Micron](https://www.micron.com/products/memory/hbm/hbm4)",
+      "36 GB",
+      "12",
+      ">11 Gb/s",
+      ">2,800 GB/s"
+    ]
+  ]
+}

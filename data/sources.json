@@ -1,0 +1,18 @@
+{
+  "tracelab": {
+    "filename": "syfi_coding_trace_v0.0.2.duckdb",
+    "url": "https://github.com/uw-syfi/TraceLab/releases/download/v0.0.2/syfi_coding_trace.duckdb",
+    "bytes": 160182272,
+    "sha256": "a7bab286bc640844560850965ccf47975cf66407154132abaab90f27ec9be744",
+    "license": "CC-BY-4.0",
+    "revision": "v0.0.2 (asset 488289840; hash is authoritative)"
+  },
+  "weka": {
+    "filename": "weka_traces.jsonl",
+    "url": "https://huggingface.co/datasets/semianalysisai/cc-traces-weka-062126/resolve/23f152f6f0f9399a85901b89a6458def0ef16729/traces.jsonl",
+    "bytes": 1847151435,
+    "sha256": "29b6a19e751ff5230771519aab755f80a0f43a4ba9cf96b72d3a6a437ec99276",
+    "license": "Apache-2.0",
+    "revision": "23f152f6f0f9399a85901b89a6458def0ef16729"
+  }
+}

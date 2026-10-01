@@ -1,0 +1,10 @@
+# Data attribution and release review
+
+- **Code:** Apache License 2.0, with TraceLab attribution and changes described in NOTICE. The root license is not a blanket grant for every external dataset.
+- **TraceLab-derived numeric rows/reference statistics:** CC-BY-4.0. Credit TraceLab, SyFI Lab, University of Washington, <https://tracelab.cs.washington.edu>. Adaptations aggregate costs/tokens/clocks and remove identifying indices. License text and attribution requirements are recorded in `TraceLab-DATASET.md`.
+- **WEKA-derived numeric rows:** the pinned [dataset card](https://huggingface.co/datasets/semianalysisai/cc-traces-weka-062126/tree/23f152f6f0f9399a85901b89a6458def0ef16729) lists Apache-2.0. Credit SemiAnalysis. Mixed `token_groups.json` contains a `dataset` field distinguishing the two sources; its components retain their respective terms.
+- **InferenceX benchmark export:** a minimized public numerical API snapshot is staged locally for reproducibility. The InferenceX software repository uses Apache-2.0, but that alone does not establish an explicit license for API database exports. Confirm redistribution permission/terms for this snapshot before public release. Until then, `--public` packaging is blocked. No assertion of cleared database rights is made.
+- **AgentX workflow artifacts:** not bundled. Optional authenticated retrieval is directly from original GitHub artifacts; numeric audit references and checksums are retained. Do not redistribute full logs/request records without checking applicable terms. Artifact expiry may prevent a later full runtime-audit rebuild; the primary report build does not depend on those artifacts.
+- **Hardware specifications and forecast inputs:** limited factual values with direct source links, not copied reports or paywalled source datasets. Preserve citations and label assumptions as such.
+
+No contributor re-identification, private conversation material, credentials, private document exports, or raw local personal traces belong in this repository. Release scanning is a defense in depth, not a legal or privacy guarantee.

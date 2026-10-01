@@ -1,0 +1,473 @@
+{
+  "1": [
+    [
+      "Revenue/cost K",
+      "Implied cost/session-hour",
+      "Sessions/GB300 equiv."
+    ],
+    [
+      "5×",
+      "$6.00",
+      "0.833"
+    ],
+    [
+      "10×",
+      "$3.00",
+      "1.667"
+    ]
+  ],
+  "2": [
+    [
+      "Model / API tier",
+      "GPU",
+      "50 TPS/user",
+      "100 TPS/user"
+    ],
+    [
+      "[DeepSeek V4 Pro](https://api-docs.deepseek.com/quick_start/pricing/) off-peak",
+      "GB300",
+      "4.4×",
+      "2.1×"
+    ],
+    [
+      "[DeepSeek V4 Pro](https://api-docs.deepseek.com/quick_start/pricing/) peak",
+      "GB300",
+      "8.8×",
+      "4.2×"
+    ],
+    [
+      "[GLM-5.2](https://docs.z.ai/guides/overview/pricing)",
+      "GB300",
+      "10.5×",
+      "9.3×"
+    ],
+    [
+      "[Kimi K3](https://platform.kimi.ai/)",
+      "GB300",
+      "4.1×",
+      "2.9×"
+    ],
+    [
+      "[MiniMax M3](https://platform.minimax.io/docs/guides/pricing-paygo)",
+      "B300",
+      "4.8×",
+      "4.1×"
+    ]
+  ],
+  "3": [
+    [
+      "Accelerator",
+      "HBM generation",
+      "Memory per GPU",
+      "Peak bandwidth per GPU"
+    ],
+    [
+      "[A100 80GB SXM](https://www.nvidia.com/content/dam/en-zz/Solutions/Data-Center/a100/pdf/nvidia-a100-datasheet-nvidia-us-2188504-web.pdf)",
+      "HBM2E",
+      "80 GB",
+      "2.039 TB/s"
+    ],
+    [
+      "[H100 SXM](https://www.nvidia.com/en-us/data-center/h100/)",
+      "HBM3",
+      "80 GB",
+      "3.35 TB/s"
+    ],
+    [
+      "[Blackwell Ultra (GB300)](https://developer.nvidia.com/blog/inside-nvidia-blackwell-ultra-the-chip-powering-the-ai-factory-era/)",
+      "HBM3E",
+      "288 GB",
+      "8 TB/s"
+    ],
+    [
+      "[Rubin (VR200)](https://developer.nvidia.com/blog/inside-nvidia-rubin-gpu-architecture-powering-the-era-of-agentic-ai/)",
+      "HBM4",
+      "288 GB",
+      "22 TB/s"
+    ]
+  ],
+  "4": [
+    [
+      "Shipment year",
+      "Total HBM B GB",
+      "HBM3E share",
+      "HBM4/4E share"
+    ],
+    [
+      "2025",
+      "2.21",
+      "80%",
+      "0%"
+    ],
+    [
+      "2026E",
+      "3.75",
+      "62.5%",
+      "37.5%"
+    ],
+    [
+      "2027E",
+      "5.81",
+      "20%",
+      "80%"
+    ]
+  ],
+  "A1": [
+    [
+      "P90 speed target (TPS/user)",
+      "P90 time to first token (seconds)"
+    ],
+    [
+      "50",
+      "39.8"
+    ],
+    [
+      "100",
+      "12.4"
+    ],
+    [
+      "200",
+      "4.6"
+    ]
+  ],
+  "A2": [
+    [
+      "Model and harness",
+      "Sessions (pooled / plotted)",
+      "Adjusted hours",
+      "Pooled USD/hour"
+    ],
+    [
+      "GPT-5.5 · Codex",
+      "1,069 / 513",
+      "866.4",
+      "$18.19"
+    ],
+    [
+      "GPT-5.6 Sol · Codex",
+      "206 / 140",
+      "319.7",
+      "$15.50"
+    ],
+    [
+      "Opus 4.8 · Claude Code",
+      "1,947 / 855",
+      "1,010.0",
+      "$24.34"
+    ],
+    [
+      "Fable 5 · Claude Code",
+      "168 / 55",
+      "100.8",
+      "$50.16"
+    ],
+    [
+      "Opus 4.8 · Claude Code peak >500k subset",
+      "48 / 48",
+      "302.6",
+      "$38.99"
+    ],
+    [
+      "Fable 5 · Claude Code peak >500k subset",
+      "10 / 9",
+      "41.6",
+      "$104.75"
+    ]
+  ],
+  "B1": [
+    [
+      "Revenue/cost K",
+      "Implied cost/session-hour",
+      "Sessions/GB300 equiv."
+    ],
+    [
+      "5×",
+      "$6.00",
+      "0.833"
+    ],
+    [
+      "10×",
+      "$3.00",
+      "1.667"
+    ],
+    [
+      "20×",
+      "$1.50",
+      "3.333"
+    ],
+    [
+      "40×",
+      "$0.75",
+      "6.667"
+    ]
+  ],
+  "B2a": [
+    [
+      "Shipment year",
+      "Total HBM B GB",
+      "HBM3E share",
+      "HBM4/4E share",
+      "HBM3E B GB",
+      "HBM4/4E B GB"
+    ],
+    [
+      "2025",
+      "2.21",
+      "80%",
+      "0%",
+      "1.76",
+      "0"
+    ],
+    [
+      "2026E",
+      "3.75",
+      "62.5%",
+      "37.5%",
+      "2.34",
+      "1.41"
+    ],
+    [
+      "2027E",
+      "5.81",
+      "20%",
+      "80%",
+      "1.16",
+      "4.65"
+    ]
+  ],
+  "B2b": [
+    [
+      "Shipments through",
+      "HBM3E (billion GB)",
+      "HBM4/4E (billion GB)",
+      "GB300 equivalents (millions; u = 2)"
+    ],
+    [
+      "2026",
+      "4.108",
+      "1.406",
+      "24.03"
+    ],
+    [
+      "2027",
+      "5.271",
+      "6.056",
+      "60.36"
+    ]
+  ],
+  "B3": [
+    [
+      "Supply through",
+      "1× uplift",
+      "2× uplift central",
+      "4× uplift"
+    ],
+    [
+      "2026",
+      "16.0–31.9",
+      "20.0–40.1",
+      "28.2–56.3"
+    ],
+    [
+      "2027",
+      "32.8–65.6",
+      "50.3–100.6",
+      "85.3–170.7"
+    ]
+  ],
+  "B4": [
+    [
+      "Scenario",
+      "Sessions per GB300",
+      "Through 2026 (Million sessions)",
+      "Through 2027 (Million sessions)"
+    ],
+    [
+      "Panel A. Closed models — K = 5–10×; u = 1–4×",
+      "",
+      "",
+      ""
+    ],
+    [
+      "Closed-model $2.5/hour",
+      "10.0–20.0",
+      "191.5–675.9",
+      "393.3–2,048.3"
+    ],
+    [
+      "Closed-model $5/hour",
+      "5.00–10.0",
+      "95.7–338.0",
+      "196.7–1,024.2"
+    ],
+    [
+      "Closed-model $10/hour",
+      "2.50–5.00",
+      "47.9–169.0",
+      "98.3–512.1"
+    ],
+    [
+      "Closed-model $20/hour",
+      "1.25–2.50",
+      "23.9–84.5",
+      "49.2–256.0"
+    ],
+    [
+      "Closed-model $30/hour",
+      "0.83–1.67",
+      "16.0–56.3",
+      "32.8–170.7"
+    ],
+    [
+      "Closed-model $50/hour",
+      "0.50–1.00",
+      "9.6–33.8",
+      "19.7–102.4"
+    ],
+    [
+      "Closed-model $75/hour",
+      "0.33–0.67",
+      "6.4–22.5",
+      "13.1–68.3"
+    ],
+    [
+      "Closed-model $100/hour",
+      "0.25–0.50",
+      "4.8–16.9",
+      "9.8–51.2"
+    ],
+    [
+      "Closed-model $150/hour",
+      "0.167–0.333",
+      "3.2–11.3",
+      "6.6–34.1"
+    ],
+    [
+      "Closed-model $200/hour",
+      "0.125–0.250",
+      "2.4–8.4",
+      "4.9–25.6"
+    ],
+    [
+      "Panel B. Open models — benchmarked concurrency; u = 1–4×",
+      "",
+      "",
+      ""
+    ],
+    [
+      "DeepSeek V4 Pro 50 TPS/user",
+      "31.43",
+      "601.7–1,062.1",
+      "1,236.0–3,218.4"
+    ],
+    [
+      "DeepSeek V4 Pro 100 TPS/user",
+      "14.42",
+      "276.2–487.4",
+      "567.2–1,477.0"
+    ],
+    [
+      "GLM 5.2 50 TPS/user",
+      "9.46",
+      "181.1–319.7",
+      "372.1–968.9"
+    ],
+    [
+      "GLM 5.2 100 TPS/user",
+      "7.85",
+      "150.3–265.3",
+      "308.7–804.0"
+    ],
+    [
+      "Kimi K3 50 TPS/user",
+      "3.97",
+      "76.0–134.2",
+      "156.1–406.6"
+    ],
+    [
+      "Kimi K3 100 TPS/user",
+      "1.77",
+      "33.9–59.8",
+      "69.6–181.3"
+    ]
+  ],
+  "B5": [
+    [
+      "Nvidia share of HBM",
+      "Non-Nvidia performance vs Nvidia",
+      "Aggregate capacity vs main estimate"
+    ],
+    [
+      "70%",
+      "75%",
+      "92.5%"
+    ],
+    [
+      "70%",
+      "50%",
+      "85%"
+    ],
+    [
+      "60%",
+      "75%",
+      "90%"
+    ],
+    [
+      "60%",
+      "50%",
+      "80%"
+    ],
+    [
+      "50%",
+      "75%",
+      "87.5%"
+    ],
+    [
+      "50%",
+      "50%",
+      "75%"
+    ]
+  ],
+  "C1": [
+    [
+      "Generation",
+      "Manufacturer",
+      "Capacity per stack",
+      "DRAM dies per stack",
+      "Data rate per pin",
+      "Bandwidth per stack"
+    ],
+    [
+      "HBM2E",
+      "[SK hynix](https://product.skhynix.com/products/dram/hbm/hbm2e.go?appTypCd=APX08)",
+      "16 GB",
+      "8",
+      "3.6 Gb/s",
+      "460 GB/s"
+    ],
+    [
+      "HBM3",
+      "[SK hynix](https://news.skhynix.com/en/sk-hynix-develops-industrys-first-12-layer-hbm3/)",
+      "16 / 24 GB",
+      "8 / 12",
+      "[6.4 Gb/s](https://product.skhynix.com/products/dram/hbm/hbm3.go?appTypCd=APX01)",
+      "819 GB/s"
+    ],
+    [
+      "HBM3E",
+      "[Micron](https://www.micron.com/products/memory/hbm/hbm3e)",
+      "24 / 36 GB",
+      "8 / 12",
+      ">9.2 Gb/s",
+      ">1,200 GB/s"
+    ],
+    [
+      "HBM4",
+      "[Micron](https://www.micron.com/products/memory/hbm/hbm4)",
+      "36 GB",
+      "12",
+      ">11 Gb/s",
+      ">2,800 GB/s"
+    ]
+  ]
+}

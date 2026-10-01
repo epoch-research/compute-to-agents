@@ -1,0 +1,24 @@
+{
+  "verified_on": "2026-09-14",
+  "tier": "Standard API; not Fast, Batch, Flex, subscription or negotiated pricing",
+  "sources": [
+    "https://developers.openai.com/api/docs/pricing",
+    "https://developers.openai.com/api/docs/models/gpt-5.6-sol",
+    "https://developers.openai.com/api/docs/models/gpt-5.5"
+  ],
+  "prices_per_million_tokens": {
+    "gpt-5.5": {"input_per_mtok": 5.0, "cache_read_per_mtok": 0.5, "output_per_mtok": 30.0, "cache_write_per_mtok": null},
+    "gpt-5.6-sol": {"input_per_mtok": 4.0, "cache_read_per_mtok": 0.4, "output_per_mtok": 20.0, "cache_write_per_mtok": 5.0}
+  },
+  "long_context": {
+    "threshold_exclusive": 272000,
+    "input_and_cache_multiplier": 2.0,
+    "output_multiplier": 1.5,
+    "gpt-5.6-sol": "Apply to each request exceeding threshold; already included in audited costs.",
+    "gpt-5.5": "Official model page describes session-wide pricing; no selected GPT-5.5 group exceeds threshold, so this distinction has no effect here."
+  },
+  "cache_write_allocation": "Not measured for Codex. Main Figure 6 assumes all non-read GPT-5.6 input is written at the published write rate. The zero-write-surcharge alternative remains in numerical data and the companion HTML. GPT-5.5 has no separately quoted write tariff and remains at ordinary input pricing.",
+  "rate_change_vs_saved_audit": "The verified standard rates exactly match the saved audit. Reuse its already-computed per-request write scenario, not a scalar cost rescaling. Figure 6 previously used the no-write scenario.",
+  "claude": "Unchanged audited Claude tariffs, not newly price-verified in this revision.",
+  "limitations": "Source model latencies and workloads stay fixed. Mixed-model calls retain their own audited tariff; 5 unpriced mixed calls in GPT-5.5-led groups remain unpriced. These are API-equivalent estimates, not invoices."
+}

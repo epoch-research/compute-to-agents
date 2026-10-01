@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools==80.9.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "compute-to-tokens-repro"
+version = "0.1.0"
+description = "Frozen reproduction of the compute-to-tokens report"
+requires-python = ">=3.12,<3.13"
+dependencies = ["duckdb==1.5.3", "numpy==2.4.6", "pandas==3.0.1", "matplotlib==3.10.9", "httpx==0.28.1"]
+
+[project.scripts]
+reproduce = "compute_tokens.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]

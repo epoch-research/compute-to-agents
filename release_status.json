@@ -1,0 +1,9 @@
+{
+  "public_release_ready": false,
+  "gates": {
+    "benchmark_export_redistribution_review": false,
+    "appendix_B4_report_reconciliation": false,
+    "final_report_author_and_public_citation": false
+  },
+  "note": "Local reproduction is usable. These gates require explicit review; do not flip them automatically. No upload or publishing command is provided."
+}

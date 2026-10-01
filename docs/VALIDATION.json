@@ -1,0 +1,32 @@
+{
+  "validated_on": "2026-09-16",
+  "python": "3.12.3",
+  "environment": "Isolated virtual environment installed from requirements.lock; pip check passed",
+  "unit_and_regression_tests": 31,
+  "report_items": 22,
+  "report_figures": 9,
+  "report_tables": 13,
+  "pixel_identical_reference_pngs": 9,
+  "distribution_records_validated": 128,
+  "benchmark_rows_reconstructed": 722,
+  "benchmark_gpu_counts_corrected": 91,
+  "raw_rebuild": {
+    "matches_all_frozen_numeric_rows": true,
+    "tracelab_cost_groups": 6633,
+    "tracelab_shared_claude_token_groups": 5079,
+    "weka_roots": 393,
+    "weka_calls": 98827,
+    "weka_child_calls": 42029,
+    "main_cost_model_groups": 3390,
+    "distinct_main_source_sessions": 3382,
+    "sample_activity_windows_checked": true
+  },
+  "agentx_audit": {"configurations": 13, "occupancy_configurations": 5, "run_pins": 9},
+  "extracted_archive_quick_reproduction": "passed",
+  "extracted_archive_full_reproduction": "passed using explicit existing checksum-verified source files",
+  "network_downloads": "Source URL/revision metadata checked; fresh multi-GB and authenticated artifact downloads not repeated",
+  "strict_report_gate": "Expected failure: 10 known Appendix B4 intermediate-rounding endpoints",
+  "public_release_gate": "Blocked pending release_status.json reviews",
+  "docs_changed": false,
+  "published": false
+}

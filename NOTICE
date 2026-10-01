@@ -1,0 +1,15 @@
+Compute to tokens reproduction repository
+
+This repository includes software adapted from TraceLab, Copyright 2026
+SyFI Lab, University of Washington (https://tracelab.cs.washington.edu).
+See licenses/TraceLab-NOTICE and LICENSE.
+
+Modifications: extracted report-specific modules, package-relative imports,
+explicit input/output paths, pinned source manifests, independent reproduction
+entry points, numerical regression tests and privacy-minimized derived inputs.
+No endorsement by upstream data or software providers is implied.
+
+TraceLab dataset-derived data retains CC-BY-4.0 attribution; this is separate
+from the Apache-2.0 code license. SemiAnalysis WEKA's published dataset card
+lists Apache-2.0. Benchmark API and workflow artifact redistribution is a
+separate review item; see licenses/DATA_TERMS.md.

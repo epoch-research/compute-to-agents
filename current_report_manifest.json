@@ -1,0 +1,18 @@
+{
+  "version": "2026-09-29",
+  "generator": "compute_tokens.current_report.build",
+  "inputs": ["cost_groups.json", "token_groups.json", "inferencex_2026-09-15.csv.gz", "assumptions.json", "figure_config.json", "prices.json"],
+  "figures": [
+    {"id":"1","stem":"figure_1","title":"Opening capacity comparison","measurements":["figure_1_capacity.csv"]},
+    {"id":"2","stem":"figure_2","title":"P90 speed–concurrency frontiers","parts":["figure_2_part_1","figure_2_part_2"],"measurements":["figure_2_frontiers.csv"]},
+    {"id":"3","stem":"figure_3","title":"Concurrency at 50 and 100 tokens/s/user","measurements":["benchmark_target_estimates.csv"]},
+    {"id":"4","stem":"figure_4","title":"TraceLab API-equivalent hourly spending","measurements":["distributions.json"]},
+    {"id":"5","stem":"figure_5","title":"TraceLab and WEKA hourly token distributions","measurements":["distributions.json"]},
+    {"id":"6","stem":"figure_6","title":"Serving cost and potential agent capacity","measurements":["figure_6_model_anchors.csv","figure_6_curve.csv"]},
+    {"id":"7","stem":"figure_7","title":"Capacity from cumulative memory supply","measurements":["figure_7_ranges.csv"]},
+    {"id":"8","stem":"figure_8","title":"2025–27 spending sensitivity","measurements":["figure_8_spending_sensitivity.csv"]},
+    {"id":"9","stem":"figure_9","title":"DeepSeek capacity at two streaming speeds","measurements":["figure_9_deepseek.csv"]},
+    {"id":"A1","stem":"figure_a1","title":"Median speed–concurrency frontiers","parts":["figure_a1_part_1","figure_a1_part_2"],"measurements":["figure_a1_frontiers.csv"]},
+    {"id":"A2","stem":"figure_a2","title":"Concurrency at 200 tokens/s/user","measurements":["benchmark_target_estimates.csv"]}
+  ]
+}

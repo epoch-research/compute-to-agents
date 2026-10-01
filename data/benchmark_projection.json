@@ -1,0 +1,40 @@
+{
+  "original_sha256": {
+    "inferencex_2026-09-15.csv.gz": "9818dd18cbaf99dda9e09abf3613065ab3296744a4be66e7510b98dbac0f08c3",
+    "inferencex_prepared.csv": "92533334120b35f93e8feb53573f8f98dddf21be93e26b6cd5134c2e6b87e2b9"
+  },
+  "kept_source_columns": [
+    "benchmark_type",
+    "conc",
+    "decode_tp",
+    "disagg",
+    "export.display_model",
+    "export.in_latest_snapshot",
+    "export.retrieved_at",
+    "export.source_url",
+    "framework",
+    "hardware",
+    "id",
+    "metrics.input_tput_per_gpu",
+    "metrics.input_tput_tps",
+    "metrics.median_intvty",
+    "metrics.output_tput_per_gpu",
+    "metrics.output_tput_tps",
+    "metrics.p90_intvty",
+    "metrics.p90_ttft",
+    "metrics.pcp_size",
+    "metrics.pp",
+    "metrics.theoretical_cache_hit_rate",
+    "metrics.total_tput_tps",
+    "metrics.tput_per_gpu",
+    "model",
+    "num_decode_gpu",
+    "num_prefill_gpu",
+    "precision",
+    "run_url",
+    "spec_method"
+  ],
+  "transformation": "Column projection only; all 722 records and selected values retained verbatim. No filtering or numerical changes.",
+  "retrieved_at_utc": "2026-09-15T00:57:02.353938+00:00",
+  "source": "https://inferencex.semianalysis.com/api/v1/benchmarks"
+}

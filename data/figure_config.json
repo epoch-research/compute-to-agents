@@ -1,0 +1,60 @@
+{
+  "snapshot_label": "September 15, 2026 UTC",
+  "excluded_model_keys": [
+    "glm5.1"
+  ],
+  "model_order": [
+    "dsv4",
+    "glm5.2",
+    "kimik3",
+    "minimaxm3",
+    "qwen3.5",
+    "qwen3.8next"
+  ],
+  "model_labels": {
+    "dsv4": "DeepSeek V4 Pro",
+    "glm5.2": "GLM 5.2",
+    "kimik3": "Kimi K3",
+    "minimaxm3": "MiniMax M3",
+    "qwen3.5": "Qwen 3.5 397B A17B",
+    "qwen3.8next": "Qwen3.8 Flash Next"
+  },
+  "hardware_order": [
+    "h100",
+    "h200",
+    "b200",
+    "b300",
+    "gb200",
+    "gb300",
+    "mi300x",
+    "mi325x",
+    "mi355x"
+  ],
+  "hardware_labels": {
+    "h100": "H100",
+    "h200": "H200",
+    "b200": "B200",
+    "b300": "B300",
+    "gb200": "GB200",
+    "gb300": "GB300",
+    "mi300x": "MI300X",
+    "mi325x": "MI325X",
+    "mi355x": "MI355X"
+  },
+  "hardware_colors": {
+    "h100": "#7b8799",
+    "h200": "#172033",
+    "b200": "#3675e9",
+    "b300": "#16b4cb",
+    "gb200": "#8247e5",
+    "gb300": "#df3282",
+    "mi300x": "#ca8500",
+    "mi325x": "#e35418",
+    "mi355x": "#19a951"
+  },
+  "interactivity_cutoffs": [
+    50,
+    100,
+    200
+  ]
+}

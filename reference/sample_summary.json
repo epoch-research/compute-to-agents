@@ -1,0 +1,171 @@
+{
+  "dataset": "TraceLab v0.0.2",
+  "dataset_sha256": "a7bab286bc640844560850965ccf47975cf66407154132abaab90f27ec9be744",
+  "cache_scenario": "retained",
+  "clock": "cap300",
+  "codex_write_markup": true,
+  "claude_price_source_date": "2026-08-21",
+  "saved_audit_overlay_date": "2026-09-08",
+  "codex_prices_verified_on": "2026-09-14",
+  "main_row_session_model_groups": 3390,
+  "main_row_distinct_source_sessions": 3382,
+  "source_sessions_in_multiple_main_model_rows": 8,
+  "cross_model_overlap": [
+    {
+      "models": [
+        "claude-fable-5",
+        "claude-opus-4-8"
+      ],
+      "source_sessions": 4
+    },
+    {
+      "models": [
+        "gpt-5.5",
+        "gpt-5.6-sol"
+      ],
+      "source_sessions": 4
+    }
+  ],
+  "coverage": {
+    "rounds": 665453,
+    "normal_runs": 59255,
+    "synthetic_start_runs": 166,
+    "priced_round_cost_usd": 82956.68412965,
+    "assigned_run_cost_usd": 82902.5087369,
+    "priced_cost_coverage": 0.9993469436089641,
+    "unpriced_rounds": 128461,
+    "unpriced_models": {
+      "gpt-5-codex": 5604,
+      "gpt-5.1-codex-max": 2652,
+      "gpt-5.1": 759,
+      "gpt-5.2": 755,
+      "gpt-5.2-codex": 7436,
+      "gpt-5.3-codex": 29712,
+      "gpt-5.4": 59980,
+      "codex-auto-review": 13389,
+      "glm-5.2": 270,
+      "gpt-5.1-codex": 1339,
+      "gpt-5": 1725,
+      "gpt-5.3-codex-spark": 4272,
+      "gpt-5.4-mini": 338,
+      "gpt-5.1-codex-mini": 15,
+      "minimax/minimax-m2.1": 215
+    },
+    "residual_rounds_with_time": 5307,
+    "residual_rounds_without_time": 582,
+    "exact_synthetic_turn_starts": 0,
+    "inferred_synthetic_turn_starts": 166,
+    "human_wait_hours_removed": 786.5076636111111
+  },
+  "source_hashes": {
+    "continuous_cost_audit/outputs/all_model_session_metrics.json": "be58a51e0abecd9b6ae3cb1dd4191ffd092af755a82ca201fd6009b1e27b6a8b",
+    "report_figures/session_costs/outputs/numerical_measurements.json": "394745d970a679e54b3af328e5637b9fc99c17b7e2d39e1e8521944986c9f369",
+    "report_figures/session_costs/pricing_verification.json": "769b643dd216d7ae8e3f7f45b37763bc817e7e4e91bc1304c557e0b7d6b6cdf2"
+  },
+  "checks": {
+    "matches_figure3_six_rows": true,
+    "matches_four_report_rates_at_one_decimal": true,
+    "matches_pinned_database_hash": true,
+    "matches_reconstructed_group_counts_and_calls": true
+  },
+  "rows": [
+    {
+      "model": "gpt-5.5",
+      "harness": "Codex",
+      "high_context_subset": false,
+      "label": "GPT-5.5 \u00b7 Codex",
+      "included_session_model_groups": 1069,
+      "figure3_distribution_groups": 513,
+      "adjusted_session_hours": 866.417455,
+      "total_api_equivalent_cost_usd": 15763.905892000004,
+      "pooled_usd_per_adjusted_hour": 18.194354004560083,
+      "calls": 164930,
+      "mixed_model_calls": 5,
+      "unpriced_calls": 5,
+      "short_groups_included_in_pool": 556,
+      "included_run_start_min_utc": "2026-04-23T23:28:28.325000+00:00",
+      "included_run_end_max_utc": "2026-07-24T08:39:07.695000+00:00"
+    },
+    {
+      "model": "gpt-5.6-sol",
+      "harness": "Codex",
+      "high_context_subset": false,
+      "label": "GPT-5.6 Sol \u00b7 Codex",
+      "included_session_model_groups": 206,
+      "figure3_distribution_groups": 140,
+      "adjusted_session_hours": 319.689975,
+      "total_api_equivalent_cost_usd": 4955.547299600012,
+      "pooled_usd_per_adjusted_hour": 15.501103216014238,
+      "calls": 66186,
+      "mixed_model_calls": 0,
+      "unpriced_calls": 0,
+      "short_groups_included_in_pool": 66,
+      "included_run_start_min_utc": "2026-07-03T06:48:35.016000+00:00",
+      "included_run_end_max_utc": "2026-07-24T08:37:41.895000+00:00"
+    },
+    {
+      "model": "claude-opus-4-8",
+      "harness": "Claude Code",
+      "high_context_subset": false,
+      "label": "Opus 4.8 \u00b7 Claude Code",
+      "included_session_model_groups": 1947,
+      "figure3_distribution_groups": 855,
+      "adjusted_session_hours": 1010.0076302777778,
+      "total_api_equivalent_cost_usd": 24583.65379775,
+      "pooled_usd_per_adjusted_hour": 24.34006740225207,
+      "calls": 141740,
+      "mixed_model_calls": 0,
+      "unpriced_calls": 0,
+      "short_groups_included_in_pool": 1092,
+      "included_run_start_min_utc": "2026-05-28T22:46:13.737000+00:00",
+      "included_run_end_max_utc": "2026-07-24T08:38:06.974000+00:00"
+    },
+    {
+      "model": "claude-fable-5",
+      "harness": "Claude Code",
+      "high_context_subset": false,
+      "label": "Fable 5 \u00b7 Claude Code",
+      "included_session_model_groups": 168,
+      "figure3_distribution_groups": 55,
+      "adjusted_session_hours": 100.75452055555556,
+      "total_api_equivalent_cost_usd": 5053.3676722499995,
+      "pooled_usd_per_adjusted_hour": 50.15524508861711,
+      "calls": 10304,
+      "mixed_model_calls": 7,
+      "unpriced_calls": 0,
+      "short_groups_included_in_pool": 113,
+      "included_run_start_min_utc": "2026-07-02T05:19:16.410000+00:00",
+      "included_run_end_max_utc": "2026-07-24T08:37:42.978000+00:00"
+    },
+    {
+      "model": "claude-opus-4-8",
+      "harness": "Claude Code",
+      "high_context_subset": true,
+      "label": "Opus 4.8 \u00b7 Claude Code \u2014 peak >500k subset",
+      "included_session_model_groups": 48,
+      "figure3_distribution_groups": 48,
+      "adjusted_session_hours": 302.6039808333333,
+      "total_api_equivalent_cost_usd": 11798.442951000003,
+      "pooled_usd_per_adjusted_hour": 38.989714935370564,
+      "calls": 43359,
+      "mixed_model_calls": 0,
+      "unpriced_calls": 0,
+      "short_groups_included_in_pool": 0
+    },
+    {
+      "model": "claude-fable-5",
+      "harness": "Claude Code",
+      "high_context_subset": true,
+      "label": "Fable 5 \u00b7 Claude Code \u2014 peak >500k subset",
+      "included_session_model_groups": 10,
+      "figure3_distribution_groups": 9,
+      "adjusted_session_hours": 41.617173333333334,
+      "total_api_equivalent_cost_usd": 4359.55068675,
+      "pooled_usd_per_adjusted_hour": 104.75364705411675,
+      "calls": 7319,
+      "mixed_model_calls": 7,
+      "unpriced_calls": 0,
+      "short_groups_included_in_pool": 1
+    }
+  ]
+}

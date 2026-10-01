@@ -1,0 +1,54 @@
+name: Reproduce frozen report
+on:
+  push:
+  pull_request:
+  workflow_dispatch:
+    inputs:
+      full:
+        description: Download pinned public datasets and rebuild from raw (~2 GB)
+        type: boolean
+        default: false
+      strict_report:
+        description: Require zero discrepancies with report tables (release gate)
+        type: boolean
+        default: false
+permissions:
+  contents: read
+jobs:
+  reproduce:
+    runs-on: ubuntu-latest
+    timeout-minutes: 40
+    env:
+      MPLCONFIGDIR: /tmp/compute-tokens-mpl
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+          cache: pip
+          cache-dependency-path: requirements.lock
+      - run: python -m pip install -r requirements.lock
+      - run: python -m pip install --no-deps --no-build-isolation -e .
+      - run: python -m unittest discover -s tests -v
+      - run: python -m compute_tokens.release --check
+      - run: reproduce --offline
+      - run: python -m compute_tokens.release --archive
+      - run: python tools/smoke_archive.py dist/compute-to-tokens-repro-LOCAL-REVIEW.zip
+      - if: inputs.full
+        run: reproduce --mode full --download --output build/full
+      - if: inputs.strict_report
+        run: reproduce --offline --strict-report --output build/strict
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: reproduced-report
+          path: |
+            build/figures/
+            build/tables/
+            build/audits/
+            build/current/
+            build/index.html
+            build/validation.json
+            build/full/reconstructed/validation.json
+            build/full/current/validation.json
+          retention-days: 14

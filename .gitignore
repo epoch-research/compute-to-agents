@@ -1,0 +1,13 @@
+.venv/
+__pycache__/
+*.egg-info/
+build/
+dist/
+.cache/
+raw/
+*.duckdb
+*.duckdb.wal
+*.part
+.env
+polished_figures/*
+!polished_figures/README.md
