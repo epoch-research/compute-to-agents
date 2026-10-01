@@ -88,4 +88,6 @@ To create a local review archive: `.venv/bin/python -m compute_tokens.release --
 
 ## Attribution
 
-TraceLab (SyFI Lab, University of Washington): <https://tracelab.cs.washington.edu>. Released source traces are CC-BY-4.0; the transformations here aggregate and remove identifying indices. SemiAnalysis WEKA's pinned dataset card specifies Apache-2.0. Code is Apache-2.0 with upstream notices retained. See [NOTICE](NOTICE), [data terms](licenses/DATA_TERMS.md), and [citation guidance](CITATION.md).
+Our analysis code is licensed under Apache-2.0, with upstream notices retained. Third-party data is not relicensed by this repository: TraceLab data is provided under CC-BY-4.0, and the SemiAnalysis WEKA dataset is labeled Apache-2.0. InferenceX benchmark measurements come from SemiAnalysis's public API; we have not identified an explicit license covering redistribution of that API snapshot. Source URLs, snapshot dates, and transformations are documented in the provenance files.
+
+Credit TraceLab (SyFI Lab, University of Washington), <https://tracelab.cs.washington.edu>, and SemiAnalysis. Our trace transformations aggregate costs, tokens, and clocks and remove identifying indices. See [NOTICE](NOTICE), [data terms](licenses/DATA_TERMS.md), and [citation guidance](CITATION.md).
